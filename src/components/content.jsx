@@ -1,13 +1,13 @@
 import "../styleComponents/content.css";
 import Pic from "../mybg.png"
-import Footer from "./footer";
-import Navbarr from "./navbar"
-import Button from "./button";
+// import Footer from "./footer";
+// import Navbarr from "./navbar"
+// import Button from "./button";
 
 const Content = () => {
     return (
       <>
-        {/* <Navbarr /> */}
+        
         <div className="container">
           <div className="text-content">
             <div className="main-text">
@@ -25,7 +25,7 @@ const Content = () => {
           </div>
         </div>
         
-        {/* <Footer className="fixed-bottom" /> */}
+        
       </>
     );
 }
